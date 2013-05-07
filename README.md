@@ -29,8 +29,8 @@ Give kluster an array of objects that have a coordinate field and it'll spit bac
 The only parameter it takes is the radius of how big you want the cluster to look in KMs.
 
 e.g.
-  clusterer = Clusterer.new(@pins)
-  @clustered_pins = clusterer.clusterize(params[:cluster_radius].to_f)
+    clusterer = Clusterer.new(@pins)
+    @clustered_pins = clusterer.clusterize(params[:cluster_radius].to_f)
 
 ## Dependencies
 Kluster uses handy distance methods from the geocoder gem
